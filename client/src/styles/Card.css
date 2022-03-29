@@ -1,0 +1,46 @@
+.container-cards {
+    width: 319px;
+    height: 350px;
+    background: #4d4b4b3d;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-left: 4%;
+    margin-top: 4%;
+    display: inline-flex;
+    backdrop-filter: blur(8px);
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  .container-cards:hover{
+    transform: scale(1.1);
+  }
+
+  .div-container {
+    color:  #fff;
+  }
+
+  .card-name{
+    color:rgb(246, 246, 246);
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 12px;
+  }
+
+  .card-img{
+    width: 200px;
+    height: 200px;
+    filter: brightness(80%);
+    margin-top: -20px;
+    }
+
+  .card-img:hover{
+    filter: brightness(100%);
+  }
+
+  .card-diets{
+    font-weight: 200;
+    font-size: 14px;
+  }

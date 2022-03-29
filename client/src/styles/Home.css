@@ -1,0 +1,25 @@
+.fondo-home {
+    background-image: url('../images/maderanegra.jpg');
+    background-size: 100%;
+    width: 100%;
+}
+
+.homie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background:transparent;
+    cursor: pointer;
+}
+
+.select-home{
+    margin-right: 150px;
+    margin-top: 15px;
+    background: #a1622d;
+    color: #fff;
+    border: transparent;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: 300;
+}

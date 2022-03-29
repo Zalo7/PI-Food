@@ -1,0 +1,34 @@
+.pages{
+    width: 25px;
+}
+
+.number{
+    width: 15px;
+}
+
+.page-container{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.back{
+    color: white;
+    cursor: pointer;
+}
+
+.next{
+    color: white;
+    cursor: pointer;
+}
+
+.start {
+    color: wheat;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.end{
+    color: wheat;
+    font-size: 26px;
+    cursor: pointer;
+}

@@ -1,0 +1,138 @@
+.container-form {
+    background-image: url("../images/veggies.jpg");
+    background-size: cover;
+    height: 850px;
+    margin-top: -40px;
+  }
+
+  .title-form {
+    color: rgb(184, 4, 4);
+    font-family: 'Urbanist', sans-serif;
+    font-size: 45px;
+    display: inline-flex;
+    margin-top: 65px;
+  }
+
+  .form {
+    margin: 1.5rem;
+    width: 41rem;
+    text-align: center;
+    background-color: rgba(208, 204, 204, 0.06);
+    backdrop-filter: blur(1rem);
+    border: 1rem solid rgba(255, 255, 255, 0.01);
+    border-radius: 4rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    margin-left: 21%;
+    height: 620px;
+    margin-top: -4px;
+  }
+  
+
+  .salida {
+    display: flex;
+    margin-left: 76%;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  .div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .label {
+    width: 17%;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 90px;
+    color: #fff;
+  }
+  
+  .input {
+    width: 46%;
+  }
+  
+  p.danger {
+    color: rgba(235, 57, 57, 0.89);
+    font-size: 15px;
+    font-weight: 900;
+    display: contents;
+  }
+  
+  .div2 {
+    margin-top: 19px;
+  }
+  
+  .generos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  .select2 {
+    background: rgb(255, 255, 255);
+    color: #a23b3b;
+    border-radius: 99999px;
+    width: 105px;
+    height: 29px;
+  }
+  
+  .buton-div {
+    color: rgb(228, 225, 225);
+    font-weight: 500;
+    display: flex;
+    margin-left: -3%;
+    margin-top: 18px;
+    justify-content: space-around;
+    font-size: 18px;
+  }
+  .buton-form{
+    cursor: pointer;
+  }
+  
+  .type-submit {
+    padding: 0.9em 2em;
+    border: 2px solid #080909;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ddd;
+    transition: 0.3s;
+    z-index: 1;
+    color: #fff;
+    margin-top: 22px;
+    margin-left: 24px;
+    cursor: pointer;
+  }
+  
+  .type-submit::before {
+    content: "";
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #dd912f;
+    transition: 0.5s ease;
+    display: block;
+    z-index: -1;
+  }
+  
+  .type-submit:hover::before {
+    width: 105%;
+  }
+  
+  .type-submit:hover {
+    color: #111;
+  }
